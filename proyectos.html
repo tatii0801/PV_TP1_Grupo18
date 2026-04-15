@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <div class="container header-content">
+                <div>
+                    <h1>Explorador de Proyectos</h1>
+                </div>
+
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="proyectos.html">Proyectos</a>
+                    <a href="perfil.html">Perfil</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <!-- Barra de filtros -->
+        <aside class="filtros">
+            <h2>Filtrar proyectos</h2>
+
+            <label for="categoria">Categoría:</label>
+            <select id="categoria">
+                <option value="todas">Todas</option>
+                <option value="web">Web</option>
+                <option value="app">Aplicación</option>
+                <option value="ia">Inteligencia Artificial</option>
+            </select>
+
+            <label for="anio">Año:</label>
+            <select id="anio">
+                <option value="todos">Todos</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+
+            <label for="estado">Estado:</label>
+            <select id="estado">
+                <option value="todos">Todos</option>
+                <option value="en-curso">En curso</option>
+                <option value="finalizado">Finalizado</option>
+            </select>
+        </aside>
+
+        <!-- Listado de proyectos -->
+        <section class="contenedor-proyectos">
+
+            <!-- Proyecto 1 -->
+            <article class="proyecto">
+                <h3>Sistema de Gestión</h3>
+                <img src="Images/imgproyecto1.jpg" alt="Proyecto 1" width="150">
+                <p>Aplicación web para administrar usuarios y datos.</p>
+                <span class="categoria">Web</span>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <!-- Proyecto 2 -->
+            <article class="proyecto">
+                <img src="Images/imgproyecto2.jpg" alt="Proyecto 2" width="150">
+                <h3>App de Tareas</h3>
+                <p>Aplicación móvil para organización personal.</p>
+                <span class="categoria">Aplicación</span>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <!-- Proyecto 3 -->
+            <article class="proyecto">
+                <img src="Images/imgproyecto3.jpg" alt="Proyecto 3" width="150">
+                <h3>Clasificador IA</h3>
+                <p>Modelo de inteligencia artificial para clasificación.</p>
+                <span class="categoria">IA</span>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <!-- Proyecto 4 -->
+            <article class="proyecto">
+                <img src="Images/imgproyecto4.jpg" alt="Proyecto 4" width="150">
+                <h3>Portfolio Personal</h3>
+                <p>Sitio web para mostrar proyectos personales.</p>
+                <span class="categoria">Web</span>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+            <!-- Proyecto 5 -->
+            <article class="proyecto">
+                <img src="Images/imgproyecto5.jpg" alt="Proyecto 5" width="150">
+                <h3>Sistema de Ventas</h3>
+                <p>Software para gestión de ventas y clientes.</p>
+                <span class="categoria">Aplicación</span>
+                <a href="detalle.html">Ver detalle</a>
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>
