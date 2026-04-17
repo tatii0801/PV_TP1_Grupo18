@@ -29,13 +29,14 @@ LU: 3866
 Usuario git: tatii0801
 
 ## Descripción
-Se realizó una página web de Gestión de Proyectos Educativos utilizando HTML.
+Se realizó una página web de Gestión de Proyectos Educativos utilizando HTML y CSS.
 
 ## Archivos
 - index.html
 - proyectos.html
 - detalle.html
 - perfil.html
+- styles.css
 
 ## Tecnologías
 - HTML
