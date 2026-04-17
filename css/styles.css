@@ -33,12 +33,6 @@ body {
 header {
   background-color: var(--color-principal);
   color: var(--color-blanco);
-  /*
-    background-image: url(../Images/FI.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-*/
 }
 
 .header-contenido {
