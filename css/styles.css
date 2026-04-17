@@ -24,8 +24,8 @@ body {
 }
 
 .contenedor {
-  width: 100%;
-  max-width: 1200px;
+  width: 99%;
+  max-width: autopx;
   margin: auto;
   padding: 20px;
 }
